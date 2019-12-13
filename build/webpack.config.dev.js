@@ -14,15 +14,15 @@ module.exports = webpackMerge(baseWebpackConfig, {
         })
     ],
     // 开发环境本地启动的服务配置
-    // devServer: {
-    //     historyApiFallback: true,
-    //     hot: true,
-    //     contentBase: false,
-    //     compress: true,
-    //     port: '8081',
-    //     publicPath: '/',
-    //     proxy: {
-    //         // 接口请求
-    //     }
-    // }
+    devServer: {
+        historyApiFallback: true,
+        hot: true,
+        contentBase: false,
+        compress: true,
+        port: '8081',
+        publicPath: '/',
+        proxy: {
+            // 接口请求
+        }
+    }
 })

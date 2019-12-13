@@ -2,6 +2,7 @@
   "name": "react-webpack-start",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/huayezhiwu/20191212react-webpack-start",
   "author": "ye",
   "license": "MIT",
   "scripts": {
@@ -12,6 +13,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
